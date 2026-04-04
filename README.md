@@ -23,8 +23,18 @@ It mimics user interaction with the game by sending requests directly to Discord
 
 Before running, you must manually set:
 
-- `TOKEN` → Your Discord token  
+- `Authorization` → Your Discord Authorization  
 - `USER_AGENT` → Browser-like string  
 - `X_SUPER_PROPERTIES` → Encoded Discord client properties  
 
 ---
+
+## 📦 Requirements
+
+Make sure you have the required dependency installed:
+
+```bash
+pip install aiohttp
+```
+
+This project uses **aiohttp** for asynchronous HTTP requests to interact with Discord efficiently.
